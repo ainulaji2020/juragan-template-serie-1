@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.carousel-container {
+  /* width: 100%; */
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Efek perpindahan slide*/
+}
+
+.carousel-slide {
+  flex: 0 0 33.3333333%; /* Menampilkan 5 gambar sekaligus, jika ingin 6 ubah menjadi 16.6667% */
+  /* box-sizing: border-box; */
+}
+.carousel-slides {
+  flex: 0 0 30.3333333%; /* Menampilkan 5 gambar sekaligus, jika ingin 6 ubah menjadi 16.6667% */
+  /* box-sizing: border-box; */
+}
+
+.carousel-slide img {
+  /* width: 100%; */
+  /* height: auto; */
+}
